@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+}
+
+/*  SELETORES PERSONALIZADOS
+    # = ID
+    . = CLASS
+    : = PSEUDO-CLASS
+    :: = PSEUDO-ELEMENT
+    > = CHILDREN
+*/
+
+div:hover{
+    background-color: yellow;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{/* Quando o link já foi visitado */
+    color: darkred;
+}
+
+a:hover{/* Quando passamos o mouse em cima */
+    text-decoration: underline;
+    color: white;
+}
+
+a:active{ /* Quando clicamos em cima */
+    color: aquamarine;
+}
+
+a::before{/* antes de todos os elementos serem clicados */
+    content: "=> ";
+}
+
+a::after{ /* Depois de todos os elementos serem clicados */
+    content: " <=";
+}
+
+.especial{
+    background-color: rgb(124, 124, 223);
+}
+
+.especial::before{
+    content: "⊱ ";
+}
+
+.especial::after{
+    content: " ⊰";
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: antiquewhite;
+            margin: 0rem;
+        }
+        header {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 2rem 0rem;
+        }
+
+        nav {
+            background-color: rgb(149, 149, 149);
+            padding: 0.2rem;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.241)
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 1rem;
+        }
+
+        nav > a:hover {
+            color: lightblue;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 2rem 0rem;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        footer > p {
+            margin: 0rem;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+        }
+        article > aside{
+            background-color: #BCDAE5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inicio</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Cavalo de saia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, eius voluptates maxime excepturi itaque fugiat eaque? Possimus harum ducimus est, aperiam non, quos autem facilis tempore porro quam quod hic.</p>
+
+                <aside>Escrito por Coleman</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Ruan</p>
+    </footer>
+</body>
+</html>
