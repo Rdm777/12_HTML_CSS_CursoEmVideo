@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width:inherit-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body{
+            height: 97vh;
+            background-image: url("imagens/wallpaper005.jpg");
+            background-position: top;
+            background-repeat: repeat-x;
+        }
+        div{
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        div.yellow{
+            border: 2px solid rgb(227, 240, 85);
+            border-radius: 5px;
+            height: 200px;
+            background-color: lightyellow;
+        } 
+        div.black{
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            height: 200px;
+            width: 20%;
+            background-color: rgb(52, 52, 51);
+            color: white;
+        }
+        div.blue{
+            border: 2px solid rgb(0, 0, 246);
+            border-radius: 5px;
+            height: 200px;
+            width: 20%;
+            background-color: rgb(0, 191, 255);
+            color: white;
+            display: block; /*Se o display for colocado como "auto" podemos adicionar uma div ao lado da outra*/
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="yellow">
+        <h1>Ola Mundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet assumenda nisi doloremque, repellendus minus beatae consequuntur nam sed atque laudantium perspiciatis, numquam, ab iusto voluptates! Laudantium molestiae explicabo maiores recusandae?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias ullam et, dolores incidunt possimus laborum maxime nisi a similique nihil corrupti nam, dignissimos delectus atque quos illum soluta repellat accusantium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem architecto tempore provident dignissimos suscipit quaerat deserunt, nisi omnis in perspiciatis maxime officia doloribus quisquam illo accusamus cupiditate commodi ipsum blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores delectus dolorem voluptates nihil necessitatibus modi architecto porro, iure enim esse laudantium nostrum recusandae aperiam ullam molestiae molestias excepturi commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis ipsa numquam veniam, a autem incidunt eveniet nulla officia provident saepe, eligendi laudantium beatae sapiente impedit quasi temporibus error aspernatur.</p>
+    </div>
+    <div class="black">
+        <h1>Ola Mundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet assumenda nisi doloremque, repellendus minus beatae consequuntur nam sed atque</p>
+    </div>
+    <div class="blue">
+        <h1>Ola Mundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet assumenda nisi doloremque, repellendus minus beatae consequuntur nam sed atque</p>
+    </div>
+</body>
+</html>
